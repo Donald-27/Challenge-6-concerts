@@ -86,7 +86,6 @@ class Venue:
             raise Exception("Name must be a non-empty string")
         if not isinstance(city, str) or len(city) == 0:
             raise Exception("City must be a non-empty string")
-
         self._name = name
         self._city = city
         self._concerts = [] 
