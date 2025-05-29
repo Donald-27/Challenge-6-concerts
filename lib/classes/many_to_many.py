@@ -100,7 +100,6 @@ class Venue:
         if not isinstance(value, str) or len(value) == 0:
             raise Exception("Name must be a non-empty string")
         self._name = value
-
     @property
     def city(self):
         return self._city
