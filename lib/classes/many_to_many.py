@@ -79,7 +79,6 @@ class Concert:
         """Return the band's introduction message for this concert."""
         return f"Hello {self.venue.city}!!!!! We are {self.band.name} and we're from {self.band.hometown}"
 
-
 class Venue:
     def __init__(self, name, city):
         if not isinstance(name, str) or len(name) == 0:
