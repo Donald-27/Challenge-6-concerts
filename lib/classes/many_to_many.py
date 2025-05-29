@@ -27,7 +27,6 @@ class Band:
 
 class Concert:
     all = []
-
     def __init__(self, date, band, venue):
         # Basic validation for date
         if not isinstance(date, str) or len(date) == 0:
