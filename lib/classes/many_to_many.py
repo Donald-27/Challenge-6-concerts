@@ -37,6 +37,7 @@ class Concert:
         if not isinstance(venue, Venue):
             raise Exception("venue must be a Venue instance")
 
+
         self._date = date
         self._band = band
         self._venue = venue
